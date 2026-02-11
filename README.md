@@ -1,6 +1,6 @@
 # Ollama test
 
-A simple slurm script to fire up a LLM with Ollama and interact with it.
+A simple slurm script to fire up an LLM with Ollama and interact with it.
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ A simple slurm script to fire up a LLM with Ollama and interact with it.
 
 1. From a login node, edit the `ollama.slurm` file to add queue, allocation (if needed), and adjust run time.
 
-2. Rename the file `.env.sample` to `.env` and add the API KEY (For local ollama, it's usually "ollama")
+2. Rename the file `.env.sample` to `.env` and add the API KEY (for local ollama, it's usually "ollama")
 
 3. Submit the job.
 
